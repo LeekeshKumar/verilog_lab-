@@ -1,0 +1,40 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vilsugrup/Desktop/VLSI/B5/VERILOG/SYSTEM_TASK_FUN
+T_opt
+!s110 1790054336
+VoKz?<`SY6:OB3=YZLlf3l0
+04 2 4 work tb fast 0
+=1-e86a6401b37e-6ab20fbf-38b-3584
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtb
+!s110 1790054334
+!i10b 1
+!s100 9;lgeD2aI6efRkKZIS2`I3
+IjjHUnc^5edahAzA3^g;4>0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1790054331
+8file_hand.v
+Ffile_hand.v
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1790054333.000000
+!s107 file_hand.v|
+!s90 -reportprogress|300|file_hand.v|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

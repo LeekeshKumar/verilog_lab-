@@ -1,0 +1,83 @@
+
+task
+	->we can write delay,wait,@,#
+	->in task  input and output arg are optional / not required
+	->task is not syn when delay is present
+	-> task is syn , no delay
+	->no return type
+	->declaration should be ouside initial , always
+	->calling inside procedural blocks
+	-> can we call task inside task ->yes
+	-> can we call task inside function ->yes / no 
+
+function
+	->we cannot write any delay
+	->in function we must have 1 input arg..
+	->function is syn
+	->we have return type
+	->declaration should be ouside initial , always
+	->calling inside procedural blocks
+	-> can we call function inside function ->yes
+	-> can we call function inside function 
+
+
+module tb;
+	reg a;
+	reg b;
+	function reg print(input reg af);
+		print=af
+		$display("99494594654649");
+		display();
+	endfunction
+	task display();
+		$display("dfjbvjhvbfsjvb");
+	endtask
+	initial begin
+		a=10;
+		b=print(a);	
+	end
+endmodule
+
+
+integer a[1:0] ;
+
+reg [5:0]a[1:0];
+
+
+
+design jkff using Dff
+		RC		  AE
+
+Design Mod 10 ripple down counter -ve edge.
+	-> jk
+	->4FF	
+
+module tb;  // 2  1  3
+	event e1,e2;
+	initial begin
+	  @e1;
+      $display("ENTRY1");
+    end
+  	initial begin
+	  ->e1;
+      $display("ENTRY2");
+  	end
+	initial begin
+      $display("ENTRY3");
+    end
+endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
